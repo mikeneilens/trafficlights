@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-03-23T14:38:43" hostname="MacBook-Pro-2" time="0.049">
+<testsuite name="MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-03-27T13:44:09" hostname="MacBook-Pro-2" time="0.059">
   <properties/>
-  <testcase name="when changed once should turn red/amber" classname="MainTest" time="0.018"/>
-  <testcase name="when changed two times turns green" classname="MainTest" time="0.001"/>
+  <testcase name="when changed once should turn red/amber" classname="MainTest" time="0.019"/>
+  <testcase name="when changed two times turns green" classname="MainTest" time="0.002"/>
   <testcase name="when changed three times turns amber" classname="MainTest" time="0.001"/>
   <testcase name="when changed four times turns red" classname="MainTest" time="0.001"/>
-  <testcase name="when changed once should not skip amber if flag not set" classname="MainTest" time="0.002"/>
-  <testcase name="when changed once should skip amber if flag is set" classname="MainTest" time="0.001"/>
+  <testcase name="when changed once should not skip amber if flag not set" classname="MainTest" time="0.006"/>
+  <testcase name="when changed once should skip amber if flag is set" classname="MainTest" time="0.002"/>
   <testcase name="when changed two times turns green if skip amber flag not set" classname="MainTest" time="0.001"/>
-  <testcase name="when changed two times turns amber if skip amber flag set" classname="MainTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="when changed two times turns amber if skip amber flag set" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[LRedVersion2;
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
