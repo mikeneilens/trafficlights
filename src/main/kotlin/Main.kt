@@ -44,8 +44,8 @@ sealed class RedOutput(val trafficLightState: TrafficLightState):TrafficLightSta
     override fun changeColour(): TrafficLightState = this.trafficLightState.changeColour()
 }
 
+//Broken is a special case where the actual traffic light can't change colour, e.g. bulbs not working or no power.
 class Broken(val fixture:Int, val reason:String):TrafficLightState {
     override fun changeColour():Broken = Broken(fixture, "Still broken")
     override fun toString() = "I am Broken"
 }
-
